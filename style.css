@@ -136,7 +136,6 @@ nav ul li a {
 
 .titleHead h1 {
   -webkit-background-clip: text;
-  background-clip: text;
   background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
   color: transparent;
   background-position: center right;
@@ -163,11 +162,13 @@ nav ul li a {
   color: var(--color-primary);
   line-height: 2;
 }
+
 /* Media Query */
 @media (max-width: 768px) {
   body {
     padding: 0;
   }
+
   /* Navigation Section */
   .topLinks,
   #logo {
@@ -239,9 +240,6 @@ nav ul li a {
 
   .titleHead {
     padding: 30px 20px;
-  }
-
-  .titleHead {
     width: 100%;
   }
 
