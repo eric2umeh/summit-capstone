@@ -107,16 +107,67 @@ nav ul li a {
 
 .bar {
   display: block;
-  width: 25px;
-  height: 3px;
+  width: 35px;
+  height: 5px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: var(--color-primary);
 }
 
+/* Headline */
+#main {
+  background: url(assets/bg.png) no-repeat center center;
+}
+
+.headline {
+  padding: 100px;
+  color: var(--color-primary);
+}
+
+.titleHead {
+  width: 70%;
+}
+
+.titleHead h2 {
+  color: var(--color-secondary);
+  font-weight: 400;
+}
+
+.titleHead h1 {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url(https://w0.peakpx.com/wallpaper/194/474/HD-wallpaper-red-and-orange-texture-red-aesthetic.jpg);
+  color: transparent;
+  background-position: center right;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.descHead {
+  color: var(--color-primary);
+  background-color: rgb(245, 245, 245);
+  padding: 2%;
+  border: 3px solid #fff;
+  margin: 2% 0;
+  line-height: 2;
+}
+
+.venueHead {
+  color: var(--color-primary);
+}
+
+.dateHead h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 2;
+}
 /* Media Query */
 @media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
   /* Navigation Section */
   .topLinks,
   #logo {
@@ -126,8 +177,8 @@ nav ul li a {
   .hamburger {
     display: block;
     position: absolute;
-    top: 0;
-    padding: 20px;
+    top: 20px;
+    left: 20px;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -151,8 +202,8 @@ nav ul li a {
     top: 0;
     gap: 0;
     flex-direction: column;
-    background: rgba(236, 82, 66, 0.8);
-    backdrop-filter: blur(6px);
+    background: rgba(42, 62, 240, 0.8);
+    backdrop-filter: blur(5px);
     height: 100vh;
     width: 100%;
     text-align: center;
@@ -178,5 +229,33 @@ nav ul li a {
 
   #menuBtn.active .bar {
     background-color: var(--color-secondary);
+  }
+
+  /* Headline Section */
+  #main {
+    background: url(assets/bg-mobile.png) no-repeat right center;
+    margin: -100px;
+  }
+
+  .titleHead {
+    padding: 30px 20px;
+  }
+
+  .titleHead {
+    width: 100%;
+  }
+
+  .titleHead h1 {
+    font-size: 35px;
+  }
+
+  .dateHead {
+    padding: 0 20px;
+  }
+
+  .dateHead h3 {
+    margin-top: -25px;
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 }

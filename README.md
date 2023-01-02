@@ -7,7 +7,7 @@
   <img src="logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Capstone 1 README</b></h3>
+  <h3><b>Summit Capstone README</b></h3>
 
 </div>
 
