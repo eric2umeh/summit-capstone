@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Giid</h1>
-    <script src="nav.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Summit 2023</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="heads">
+      <div class="topLinks">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#">Logout</a>
+        <a href="#">Mypage</a>
+        <a href="#">Korean</a>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home"
+          ><img src="assets/logo-summit.png" id="logo" alt="Logo"
+        /></a>
+
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link activeLink">Home</a>
+          </li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Program</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Sponsor</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+          <button class="headBtn nav-item" type="button">
+            <a href="#">CC Campaign</a>
+          </button>
+        </ul>
+      </nav>
+
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </header>
+    <script type="text/javascript" src="nav.js"></script>
+  </body>
 </html>
