@@ -42,6 +42,12 @@ nav ul li a {
   color: var(--color-primary);
 }
 
+.programCard i {
+  font-size: 3em;
+  padding-top: 20px;
+  color: var(--color-tertiary);
+}
+
 .topLinks a i,
 .topLinks a {
   color: var(--color-tertiary);
@@ -199,12 +205,6 @@ nav ul li a {
   align-items: center;
   gap: 20px;
   text-align: center;
-}
-
-.programCard i {
-  font-size: 3em;
-  padding-top: 20px;
-  color: var(--color-tertiary);
 }
 
 .programName {
