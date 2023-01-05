@@ -34,7 +34,7 @@
 **[Capstone Project: Summit 2023]** detail of programs scheduled for this year 2023, so as guest can view online.
 
 <!-- insert link here, inside curly bracket -->
-[Video Presentation]() 
+[Video Presentation](https://www.loom.com/share/2dfbf6572e8f43818eae8a3f22a892bf) 
 
 ## 🛠 Built With <a name="built-with"></a>
     Javascript
