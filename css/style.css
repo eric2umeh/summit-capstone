@@ -469,8 +469,9 @@ footer {
 
   /* Headline Section */
   #main {
-    background: url(assets/bg-mobile.png) no-repeat right center;
+    background: url(../assets/bg-mobile.png) no-repeat right center;
     margin: -100px;
+    margin-bottom: 0;
   }
 
   .titleHead {
