@@ -377,6 +377,11 @@ footer {
   margin: 1em 0.3em;
 }
 
+.bgFooter {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+}
+
 .footer-logo {
   display: flex;
   align-items: center;
@@ -386,7 +391,7 @@ footer {
 
 .footer-logo p {
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 0.7em;
   margin-left: 4px;
 }
@@ -401,6 +406,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .bgFooter {
+    background-color: #fff;
+    color: var(--color-primary);
+  }
+
   .footer-right-reserved {
     display: flex;
     flex-direction: row;
@@ -409,7 +419,8 @@ footer {
   }
 
   .footer-logo {
-    font-size: 0.4em;
+    font-size: 0.5em;
+    font-weight: 900;
     width: 100%;
   }
 

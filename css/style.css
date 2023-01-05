@@ -205,7 +205,6 @@ nav ul li a {
 
 .programCard {
   background-color: #454850;
-  opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -387,7 +386,7 @@ footer {
 
 .footer-logo p {
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 0.7em;
   margin-left: 4px;
 }
@@ -473,17 +472,26 @@ footer {
   /* Headline Section */
   #main {
     background: url(../assets/bg-mobile.png) no-repeat right center;
-    margin: -100px;
-    margin-bottom: 0;
+  }
+
+  .headline {
+    margin-bottom: 60px;
+    padding: 0;
   }
 
   .titleHead {
-    padding: 30px 20px;
+    text-align: center;
+    padding: 30px 0 30px 20px;
     width: 100%;
   }
 
   .titleHead h1 {
     font-size: 35px;
+  }
+
+  .descHead {
+    padding: 0;
+    margin: 2% 20px 2% 0;
   }
 
   .dateHead {
