@@ -77,6 +77,23 @@ a {
   flex-direction: column;
 }
 
+/* Logo */
+#logo-2 {
+  width: 50%;
+  height: 50%;
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* headline Section */
 
 .headlines {
@@ -210,6 +227,11 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+.mainLogo {
+  height: 14em;
+  width: 14em;
 }
 
 @media (min-width: 768px) {
@@ -355,44 +377,56 @@ footer {
   margin: 1em 0.3em;
 }
 
-.container-footer-reserved {
-  display: flex;
-  flex-direction: row;
-  padding: 0 1.5em;
-  justify-content: space-between;
+.bgFooter {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
 }
 
 .footer-logo {
   display: flex;
-  justify-content: space-around;
   align-items: center;
   font-size: 1em;
-  width: 100%;
+  width: 50%;
 }
 
 .footer-logo p {
-  font-size: 1em;
-  font-weight: 900;
+  font-size: 2em;
+  font-weight: 500;
   line-height: 0.7em;
   margin-left: 4px;
 }
 
 .footer-logo .far {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .footer-paragraph-right-reserved {
-  font-size: 0.7em;
-  line-height: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 0.8em;
-  margin-top: 5px;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
-.logo-word {
-  color: rgb(228, 228, 228);
+@media (max-width: 768px) {
+  .bgFooter {
+    background-color: #fff;
+    color: var(--color-primary);
+  }
+
+  .footer-right-reserved {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3em 3em;
+  }
+
+  .footer-logo {
+    font-size: 0.5em;
+    font-weight: 900;
+    width: 100%;
+  }
+
+  .footer-paragraph-right-reserved {
+    font-size: 0.8em;
+  }
 }
 
 @media (min-width: 768px) {
@@ -422,46 +456,5 @@ footer {
 
   .partners {
     display: none;
-  }
-
-  .footer-right-reserved {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3em;
-    background: var(--color-primary);
-    color: var(--color-tertiary);
-  }
-
-  .container-footer-reserved {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 900px;
-  }
-
-  .footer-logo {
-    display: flex;
-    align-items: center;
-    font-size: 1em;
-    width: 50%;
-  }
-
-  .footer-logo p {
-    font-size: 2em;
-    font-weight: 900;
-    line-height: 0.7em;
-    margin-left: 4px;
-    max-width: 250px;
-  }
-
-  .footer-logo .far {
-    font-size: 3em;
-  }
-
-  .footer-paragraph-right-reserved {
-    font-size: 1em;
-    line-height: 1.5em;
   }
 }

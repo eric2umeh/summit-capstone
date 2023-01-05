@@ -104,7 +104,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Take your time to check the [issues page](https://github.com/eric2umeh/summit-capstone.git/issues).
+Take your time to check the [issues page](https://github.com/eric2umeh/summit-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

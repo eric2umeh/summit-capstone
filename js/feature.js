@@ -1,9 +1,9 @@
+/* eslint-disable no-plusplus */
 const speakersCards = document.querySelector('.speakers-elt');
 const speakerBtn = document.querySelector('.speakers-btn');
 
 const mediaqueryList = window.matchMedia('(max-width: 768px)');
 
-/* eslint-disable no-undef */
 const dataSpeakers = [
   {
     url: './assets/speakers/speaker1.jpeg',
@@ -65,7 +65,6 @@ const cardSpeaker = (i) => `
 
 const showTwoSpeakers = () => {
   speakersCards.innerHTML = ' ';
-  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < 2; i++) {
     const speaker = document.createElement('div');
     speaker.innerHTML = cardSpeaker(i);
@@ -75,7 +74,6 @@ const showTwoSpeakers = () => {
 
 const showAllSpeakers = () => {
   speakersCards.innerHTML = ' ';
-  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < dataSpeakers.length; i++) {
     const speaker = document.createElement('div');
     speaker.innerHTML = cardSpeaker(i);

@@ -75,9 +75,9 @@ nav ul li a {
 }
 
 #logo {
-  width: 50%;
-  height: 50%;
-  animation: rotations 2s;
+  width: 30%;
+  height: 30%;
+  animation: rotation 2s;
 }
 
 @keyframes rotation {
@@ -205,12 +205,15 @@ nav ul li a {
 
 .programCard {
   background-color: #454850;
-  opacity: 0.8;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   text-align: center;
+}
+
+.programCard:hover {
+  border: 2px solid #fff;
 }
 
 .programName {
@@ -383,10 +386,9 @@ footer {
 
 .footer-logo p {
   font-size: 2em;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 0.7em;
   margin-left: 4px;
-  max-width: 250px;
 }
 
 .footer-logo .far {
@@ -469,17 +471,27 @@ footer {
 
   /* Headline Section */
   #main {
-    background: url(assets/bg-mobile.png) no-repeat right center;
-    margin: -100px;
+    background: url(../assets/bg-mobile.png) no-repeat right center;
+  }
+
+  .headline {
+    margin-bottom: 60px;
+    padding: 0;
   }
 
   .titleHead {
-    padding: 30px 20px;
+    text-align: center;
+    padding: 30px 0 30px 20px;
     width: 100%;
   }
 
   .titleHead h1 {
     font-size: 35px;
+  }
+
+  .descHead {
+    padding: 0;
+    margin: 2% 20px 2% 0;
   }
 
   .dateHead {
