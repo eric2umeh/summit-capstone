@@ -75,9 +75,9 @@ nav ul li a {
 }
 
 #logo {
-  width: 50%;
-  height: 50%;
-  animation: rotations 2s;
+  width: 30%;
+  height: 30%;
+  animation: rotation 2s;
 }
 
 @keyframes rotation {
@@ -211,6 +211,10 @@ nav ul li a {
   align-items: center;
   gap: 20px;
   text-align: center;
+}
+
+.programCard:hover {
+  border: 2px solid #fff;
 }
 
 .programName {
@@ -386,7 +390,6 @@ footer {
   font-weight: 900;
   line-height: 0.7em;
   margin-left: 4px;
-  max-width: 250px;
 }
 
 .footer-logo .far {
