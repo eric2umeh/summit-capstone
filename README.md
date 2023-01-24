@@ -31,7 +31,7 @@
 
 # 📖 Capstone Project: Summit 2023 <a name="about-project"></a>
 
-**[Capstone Project: Summit 2023]** detail of programs scheduled for this year 2023, so as guest can view online.
+A website that shows detail of programs scheduled for this year 2023, so as guest can view online. Built with Javascript & HTML and CSS.
 
 <!-- insert link here, inside curly bracket -->
 [Video Presentation](https://www.loom.com/share/2dfbf6572e8f43818eae8a3f22a892bf) 
